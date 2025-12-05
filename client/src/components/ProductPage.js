@@ -3,7 +3,7 @@ import React from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 
 // **TODO: REPLACE WITH YOUR STRIPE PUBLIC KEY**
-const stripePromise = loadStripe('pk_test_51SanoE02Zh2IfMPkIr6KufuZqq5u6KPA20YbIaYIEjYs3TDsDVD38eB0fvUPh5IIRJvIIl1ydldZhfCBjiKObw15002QPDvqms');
+// const stripePromise = loadStripe('pk_test_51SanoE02Zh2IfMPkIr6KufuZqq5u6KPA20YbIaYIEjYs3TDsDVD38eB0fvUPh5IIRJvIIl1ydldZhfCBjiKObw15002QPDvqms');
 
 const PDF_PRICE_ID = 'prod_TXuTzIKjTianwX'; // **TODO: MATCH THE PRICE ID IN SERVER.JS**
 
