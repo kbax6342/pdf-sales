@@ -1,0 +1,29 @@
+# ------------------------------------
+# Dependencies
+# ------------------------------------
+# Ignore the node_modules folder in the client directory
+client/node_modules/
+
+# Ignore the node_modules folder in the server directory
+server/node_modules/
+
+
+# ------------------------------------
+# Build Outputs
+# ------------------------------------
+# Ignore the final build output folder from the React client
+client/build/
+client/dist/
+
+# ------------------------------------
+# Environment Variables & Logs
+# ------------------------------------
+# Ignore local environment files
+.env
+*.log
+
+# ------------------------------------
+# OS & Editor Files
+# ------------------------------------
+.DS_Store
+*.swp
