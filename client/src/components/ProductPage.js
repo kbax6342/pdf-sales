@@ -1,6 +1,6 @@
 // client/src/ProductPage.js
 import React from 'react';
-import { loadStripe } from '@stripe/stripe-js';
+//import { loadStripe } from '@stripe/stripe-js';
 
 // **TODO: REPLACE WITH YOUR STRIPE PUBLIC KEY**
 // const stripePromise = loadStripe('pk_test_51SanoE02Zh2IfMPkIr6KufuZqq5u6KPA20YbIaYIEjYs3TDsDVD38eB0fvUPh5IIRJvIIl1ydldZhfCBjiKObw15002QPDvqms');
