@@ -11,7 +11,7 @@ function ProductPage() {
   const handleBuyClick = async () => {
     try {
       // 1. Get Stripe instance
-      const stripe = await stripePromise;
+      //const stripe = await stripePromise;
 
       // 2. Call your backend to create a Checkout Session
       const response = await fetch('http://localhost:4242/create-checkout-session', {
